@@ -1,9 +1,8 @@
 Loader = function() {
             this.loaderElement = $('#loader');
             this.loaderElement.css({
-                        width: this.loaderElement.parent().width()
+                        width: this.loaderElement.parent().width() + 'px'
             });
-            console.log(this.loaderElement.parent().width());
         };
 
         Loader.prototype.show = function() {
