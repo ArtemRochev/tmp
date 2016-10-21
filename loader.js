@@ -1,5 +1,8 @@
 Loader = function() {
             this.loaderElement = $('#loader');
+            this.loaderElement.css({
+                        height: this.loaderElement.parent().width()
+            });
         };
 
         Loader.prototype.show = function() {
