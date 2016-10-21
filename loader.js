@@ -1,7 +1,7 @@
 Loader = function() {
             this.loaderElement = $('#loader');
             this.loaderElement.css({
-                        height: this.loaderElement.parent().width()
+                        width: this.loaderElement.parent().width()
             });
         };
 
