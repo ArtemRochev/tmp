@@ -3,6 +3,7 @@ Loader = function() {
             this.loaderElement.css({
                         width: this.loaderElement.parent().width()
             });
+            console.log(this.loaderElement.parent().width());
         };
 
         Loader.prototype.show = function() {
